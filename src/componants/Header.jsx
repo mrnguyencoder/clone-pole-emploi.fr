@@ -62,7 +62,10 @@ function Header() {
                     <span className="h-32 w-32 bg-red-500 rounded-full inline-block">
                         <IoMdPaper className='absolute pt-7 pl-8 text-8xl' />
                     </span>
-                    <p>Allocations et aides</p>
+                    <div>
+                        <p>Allocations</p>
+                        <p>et aides</p>
+                    </div>
                 </div>
                 <div className="hidden md:flex flex-col items-center justify-center space-y-4">
                     <span className="h-32 w-32 bg-red-500 rounded-full inline-block">
@@ -78,13 +81,19 @@ function Header() {
                         <p className="absolute pt-10 pl-10">EMLOI</p>
                         <p className="absolute pt-16 pl-11">Store</p>
                     </div>
-                    <p>Explorer les services en ligne de l’emploi</p>
+                    <div>
+                        <p>Explorer les services</p>
+                        <p>en ligne de l’emploi</p>
+                    </div>
                 </div>
                 <div className="space-y-4">
                     <span className="relative h-32 w-32 bg-red-500 rounded-full inline-block">
                         <HiEllipsisHorizontal className='absolute pt-7 pl-8 text-8xl' />
                     </span>
-                    <p>Plus de services</p>
+                    <div>
+                        <p>Plus de</p>
+                        <p>services</p>
+                    </div>
                 </div>
             </div>
         </div>
