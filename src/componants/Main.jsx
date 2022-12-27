@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsSearch } from "react-icons/bs";
+import { FcCalculator, FcDataSheet, FcIdea, FcInfo, FcTodoList } from "react-icons/fc";
 import image1 from '../assets/1.png';
 import image2 from '../assets/2.png';
 import image3 from '../assets/3.png';
@@ -8,6 +9,9 @@ import image5 from '../assets/5.png';
 import image6 from '../assets/6.png';
 import image7 from '../assets/7.png';
 import image8 from '../assets/8.png';
+import image9 from '../assets/9.png';
+import image10 from '../assets/10.gif';
+import image11 from '../assets/11.png';
 
 
 function Main() {
@@ -105,6 +109,57 @@ function Main() {
                    </div>
                    <img src={image8} alt="" className='rounded-t-lg' /> 
                 </div>
+
+                <div className="border bg-[#934c94] m-8 shadow-md text-slate-50 flex flex-col justify-between">
+                   <div className="">
+                       <p className="p-3">Newsletter</p>
+                       <img src={image9} alt="" className='p-7' />
+                       <p className="pl-7 text-4xl ">Mode d'emploi</p>
+                       <p className="pl-7 text-xl pb-8">Votre newsletter mensuelle</p>
+                   </div>
+                    <div>
+                        <div className="bg-[#58264a] flex justify-between items-center p-8">
+                             <p className="text-xl">Mode d'emploi - octombre # 121</p>
+                            <FcTodoList className='text-4xl'/>
+                        </div>
+                                           <div className="bg-[#49264a] flex justify-between items-center p-8">
+                         <p className="text-xl">Abonnement et anciens numeréros</p>
+                        <FcInfo className='text-4xl'/>
+                                           </div>
+                    </div>
+                </div>
+                <div className="border bg-[#223d5b] m-8 shadow-md text-slate-50 flex flex-col justify-between">
+                   <div className="">
+                       <img src={image10} alt="" className='p-7' />
+                       <p className="pl-7 text-4xl ">Mode d'emploi</p>
+                       <p className="pl-7 text-xl pb-8">Votre newsletter mensuelle</p>
+                   </div>
+                    <div>
+                        <div className="bg-[#142537] flex justify-between items-center p-8">
+                            <p className="text-xl">Les simulateus de calcul</p>
+                            <FcCalculator className='text-4xl'/>
+                        </div>
+                                           <div className="bg-[#111e2d] flex justify-between items-center p-8">
+                         <p className="text-xl">Comprendre le calcul</p>
+                        <FcDataSheet className='text-4xl'/>
+                                           </div>
+                    </div>
+                </div>
+                <div className="border bg-[#223d5b] m-8 shadow-md text-slate-50 flex flex-col justify-between">
+                   <div className="">
+                       <p className="p-3">Services</p>
+                       <img src={image11} alt="" className='p-7' />
+                       <p className="pl-7 text-4xl ">Je donne mon avis</p>
+                       <p className="pl-7 text-xl pb-8">Pour des services publics plus proches, plus simples et plus efficaces.</p>
+                   </div>
+                   <div className="bg-[#111e2d] flex justify-between items-center p-8">
+                     <p className="text-xl">Patagez votre expérience</p>
+                    <FcIdea className='text-4xl text-slate-50'/>
+                   </div>
+                </div>
+            </div>
+            <div className="flex justify-center p-10">
+                <button className='bg-slate-50 rounded-full border-2 px-6 py-4'>PLUS D'ACTUALITÉS</button>
             </div>
         </div>
 
