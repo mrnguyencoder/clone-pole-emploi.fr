@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <nav>
         <div className="flex justify-between items-center p-4 md:p-6">
-            <div className="flex space-x-4">
+            <div className="flex space-x-6 md:flex-row-reverse ">
                 <FcMenu className='text-4xl' />
                 <img src={Logo} className="h-10" alt="logo Pole Emploi" />
             </div>
