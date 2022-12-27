@@ -1760,7 +1760,7 @@
 
 "@testing-library/dom@^8.5.0", "@testing-library/dom@>=7.21.4":
   version "8.19.1"
-  resolved "https://registry.npmjs.org/@testing-library/dom/-/dom-8.19.1.tgz"
+  resolved "https://registry.npmjs.org/@testing-library/dom/-/dom-3.19.1.tgz"
   integrity sha512-P6iIPyYQ+qH8CvGauAqanhVnjrnRe0IZFSYCeGkSRW9q3u8bdVn2NPI+lasFyVsEQn1J/IFmp5Aax41+dAP9wg==
   dependencies:
     "@babel/code-frame" "^7.10.4"
