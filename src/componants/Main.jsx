@@ -21,7 +21,7 @@ function Main() {
             <p className="text-4xl">
                 Entreprise
             </p>
-            <div className="border-2 w-32 text-gray-900"></div>
+            <div className="border-[0.8px] border-slate-400 w-28"></div>
             <p className="text-xl">Vous êtes une entreprise ou un particulier employeur ? Pôle emploi vous propose un espace dédié !</p>
             <div className="flex justify-center text-slate-50 space-x-6 pt-3">
                 <button className='bg-[#4d8869] px-6 py-3 rounded-full uppercase'>entreprise</button>
@@ -29,10 +29,12 @@ function Main() {
             </div>
         </div>
         
-        <div className="bg-[#e5e9ec] bg-cover">
-            <div className="flex flex-col md:flex-row md:justify-evenly  justify-center items-center space-y-4 p-8">
+        <div className="bg-[#e5e9ec]">
+            <div className="flex flex-col md:flex-row md:justify-evenly  justify-center items-center space-y-6 p-8">
                 <p className="text-4xl">Actualités de l'emploi</p>
-                <div className="border-2 w-32 text-[#000] "></div>
+                <div className="flex justify-center">
+                    <div className="border-[0.8px] border-slate-400 w-28"></div>
+                </div>
                 <div className="flex justify-center items-center">
                     <input type="text"
                         className='outline-none px-8 py-4 rounded-l-2xl'
