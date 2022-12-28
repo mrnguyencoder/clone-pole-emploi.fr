@@ -91,7 +91,6 @@ function Footer() {
             </div>
             <div className="text-center">
                 <p className="text-slate-400"> Made just to practice web development</p>
-                <p className=""> </p>
                 <a
                   href="https://nguyencoder.com/"
                   rel='noreferrer' target="_blank"
