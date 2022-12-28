@@ -90,7 +90,15 @@ function Footer() {
                 <div className="border-[0.8px] border-slate-400 w-28 "></div>
             </div>
             <div className="text-center">
-                <p className="text-slate-400">COPYRIGHT 2022 © PÔLE EMPLOI</p>
+                <p className="text-slate-400"> Made just to practice web development</p>
+                <p className=""> </p>
+                <a
+                  href="https://nguyencoder.com/"
+                  rel='noreferrer' target="_blank"
+                  className="text-slate-400"
+                >
+                  © nguyencoder
+                </a>
             </div>
 
         </div>

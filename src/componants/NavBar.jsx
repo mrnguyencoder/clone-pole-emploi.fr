@@ -8,7 +8,6 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 import Logo from '../assets/logo.png';
 import { Menu } from '@headlessui/react';
-import { Disclosure } from '@headlessui/react';
 
 function NavBar() {
   return (
