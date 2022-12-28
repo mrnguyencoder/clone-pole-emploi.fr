@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/clone-pole-emploi.fr/static/css/main.434131c0.css",
+    "main.js": "/clone-pole-emploi.fr/static/js/main.06a60fa5.js",
+    "static/media/4.png": "/clone-pole-emploi.fr/static/media/4.28efa3e763219026fe47.png",
+    "static/media/7.png": "/clone-pole-emploi.fr/static/media/7.b37d941628631dad63d5.png",
+    "static/media/8.png": "/clone-pole-emploi.fr/static/media/8.70be25aae2e08ae26a5f.png",
+    "static/media/6.png": "/clone-pole-emploi.fr/static/media/6.91d4d428b6bfd813061a.png",
+    "static/media/5.png": "/clone-pole-emploi.fr/static/media/5.479d3559085684a43849.png",
+    "static/media/3.png": "/clone-pole-emploi.fr/static/media/3.6df763cf832755923639.png",
+    "static/media/bg.jpeg": "/clone-pole-emploi.fr/static/media/bg.1f497e217083e1824a0c.jpeg",
+    "static/media/logo.png": "/clone-pole-emploi.fr/static/media/logo.d4557a79271fdd961c71.png",
+    "static/media/9.png": "/clone-pole-emploi.fr/static/media/9.74b865ad51880210fac8.png",
+    "static/media/2.gif": "/clone-pole-emploi.fr/static/media/2.ec51a6e5c9707e3d68c2.gif",
+    "static/media/11.png": "/clone-pole-emploi.fr/static/media/11.33223121af0a009b02c4.png",
+    "static/media/10.gif": "/clone-pole-emploi.fr/static/media/10.f147d1389ae64896ac1c.gif",
+    "index.html": "/clone-pole-emploi.fr/index.html",
+    "main.434131c0.css.map": "/clone-pole-emploi.fr/static/css/main.434131c0.css.map",
+    "main.06a60fa5.js.map": "/clone-pole-emploi.fr/static/js/main.06a60fa5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434131c0.css",
+    "static/js/main.06a60fa5.js"
+  ]
+}
