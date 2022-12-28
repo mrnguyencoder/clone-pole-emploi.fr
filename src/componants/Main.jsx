@@ -68,7 +68,7 @@ function Main() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-2">
                 <div className="border bg-slate-100 m-3 shadow-xl flex flex-col justify-between">
                    <div className="p-8 space-y-4">
                     <p className="text-3xl text-green-600 hover:text-green-500">Votre actualisation en ligne évolue pour plus de simplicité !</p>
